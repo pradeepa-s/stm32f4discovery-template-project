@@ -1,0 +1,29 @@
+*** Creating Trace Output File '.\Template_project\Template_project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\template_project\system_stm32f4xx.o"'
+### List of Objects: adding '".\template_project\main.o"'
+### List of Objects: adding '".\template_project\stm32f4xx_it.o"'
+### List of Objects: adding '".\template_project\stm32f4_discovery.o"'
+### List of Objects: adding '".\template_project\stm32f4xx_rcc.o"'
+### List of Objects: adding '".\template_project\stm32f4xx_syscfg.o"'
+### List of Objects: adding '".\template_project\stm32f4xx_exti.o"'
+### List of Objects: adding '".\template_project\stm32f4xx_gpio.o"'
+### List of Objects: adding '".\template_project\misc.o"'
+### List of Objects: adding '".\template_project\startup_stm32f4xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\template_project\system_stm32f4xx.o" ".\template_project\main.o" ".\template_project\stm32f4xx_it.o" ".\template_project\stm32f4_discovery.o" ".\template_project\stm32f4xx_rcc.o" ".\template_project\stm32f4xx_syscfg.o" ".\template_project\stm32f4xx_exti.o" ".\template_project\stm32f4xx_gpio.o" ".\template_project\misc.o" ".\template_project\startup_stm32f4xx.o" 
+--library_type=microlib --strict --scatter ".\Template_project\Template_project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Template_project\Template_project.map" -o .\Template_project\Template_project.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Template_project\Template_project.axf'
+### ADS-LD Command File: '.\Template_project\Template_project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Template_project\Template_project.lnp', Handle=0x0000024C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Template_project\Template_project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
